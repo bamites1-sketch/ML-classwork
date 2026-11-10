@@ -7,11 +7,11 @@ np.random.seed(42)
 n = 500
 
 normal_df = pd.DataFrame({
-    "vibration_mm_s":  np.round(np.random.uniform(0.5,  3.5,  n), 3),
-    "rpm":             np.round(np.random.uniform(2800, 3200, n), 1),
-    "temperature_c":   np.round(np.random.uniform(40,   70,   n), 2),
-    "pressure_bar":    np.round(np.random.uniform(4.0,  7.0,  n), 3),
-    "operating_hours": np.round(np.random.uniform(0,    8000, n), 1),
+    "vibration_mm_s":  np.round(np.clip(np.random.normal(2.0,  0.5,  n), 0.5,  3.5),  3),
+    "rpm":             np.round(np.clip(np.random.normal(3000, 80,   n), 2800, 3200),  1),
+    "temperature_c":   np.round(np.clip(np.random.normal(55,   6,    n), 40,   70),    2),
+    "pressure_bar":    np.round(np.clip(np.random.normal(5.5,  0.6,  n), 4.0,  7.0),  3),
+    "operating_hours": np.round(np.clip(np.random.normal(4000, 1500, n), 0,    8000),  1),
     "label":           "NORMAL"
 })
 
