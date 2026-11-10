@@ -50,4 +50,4 @@ Decision Tree, Random Forest, SVM, Naïve Bayes, AdaBoost
 
 Recall for Fault, Precision for Fault, Macro F1, Confusion Matrix
 
-> Predictions should support — not replace — engineering inspection and safety procedures.
+
