@@ -1,6 +1,15 @@
 # Pump Condition Classification — Classwork 3.12
 
+## Group Members
+
+| # | Name | ID |
+|---|---|---|
+| 1 | Beamlak Tesfahun | 0357/16 |
+| 2 | Biniyam Gebrie | 0449/16 |
+| 3 | Mekdelawit Habtamu | 1266/16 |
+
 Practical Engineering Case Study: classify each pump observation as **NORMAL**, **WARNING**, or **FAULT** using labelled historical sensor data.
+
 
 ## Features
 
@@ -50,4 +59,4 @@ Decision Tree, Random Forest, SVM, Naïve Bayes, AdaBoost
 
 Recall for Fault, Precision for Fault, Macro F1, Confusion Matrix
 
-> Predictions should support — not replace — engineering inspection and safety procedures.
+
