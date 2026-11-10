@@ -1,4 +1,4 @@
-# Pump Condition Classification — Classwork 3.12
+# Pump Condition Classification — Classwork 
 
 Practical Engineering Case Study: classify each pump observation as **NORMAL**, **WARNING**, or **FAULT** using labelled historical sensor data.
 ## Group
