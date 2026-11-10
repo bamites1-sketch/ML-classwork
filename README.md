@@ -3,10 +3,11 @@
 Practical Engineering Case Study: classify each pump observation as **NORMAL**, **WARNING**, or **FAULT** using labelled historical sensor data.
 ## Group
 
-**Group name:** ...
 **Members:**
-- Name (ID)
-- ...
+
+- Beamlak Tesfahun (0357/16)
+- Biniyam Gebrie (0449/16)
+- Mekdelawit Habtamu (1266/16)
 
 ## Features
 
